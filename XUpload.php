@@ -81,6 +81,11 @@ class XUpload extends CJuiInputWidget {
     public $showForm = true;
 
     /**
+     * @var object calling model
+     */
+    public $caller = null;
+
+    /**
      * Publishes the required assets
      */
     public function init() {
