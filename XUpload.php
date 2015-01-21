@@ -135,7 +135,7 @@ class XUpload extends CJuiInputWidget {
              }*/
         }
 
-        $this -> render($this->formView, compact('htmlOptions'));
+        $this -> render($this->formView, $this->htmlOptions);
 
     }
 
